@@ -1,5 +1,5 @@
 {
-    function solution(s:string, t:string){
+    function solution10(s:string, t:string){
         let cnt = 0;
         let flag = true
         while(flag){  
@@ -14,5 +14,5 @@
     }
 
     let str="COMPUTERPROGRAMMING";
-    console.log(solution(str, 'R'));
+    console.log(solution10(str, 'R'));
 }
