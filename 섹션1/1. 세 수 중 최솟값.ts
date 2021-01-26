@@ -1,9 +1,8 @@
-function solution(a, b, c){
-    const arr = [a,b,c];
+function solution1(...arg:number[]){
     let answer = 101
-    for(let i = 0 ; i < arr.length; i++){
-        if(answer > arr[i]){
-            answer = arr[i]
+    for(let i = 0 ; i < arg.length; i++){
+        if(answer > arg[i]){
+            answer = arg[i]
         }
     }
     return answer
