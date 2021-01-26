@@ -5,6 +5,6 @@ function solution(str:string){
             answer += x;
         }
     }
-   return parseInt(answer,10)
+   return Number(answer)
 }
 console.log(solution("g0en2T0s8eSoft"));
