@@ -1,4 +1,4 @@
-function solution(day:number, arr:number[]){
+function solution7(day:number, arr:number[]){
     const answer:number[] = [];
 
     for(const x of arr){
@@ -8,4 +8,4 @@ function solution(day:number, arr:number[]){
     }
     return answer
 }
-console.log(solution(3, [25, 23, 11, 47, 53, 17, 33]));
+console.log(solution7(3, [25, 23, 11, 47, 53, 17, 33]));
