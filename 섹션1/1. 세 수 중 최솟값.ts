@@ -8,4 +8,4 @@ function solution1(...arg:number[]){
     return answer
 }
 
-console.log(solution(2, 5, 1));
+console.log(solution1(2, 5, 1));

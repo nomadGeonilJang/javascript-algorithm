@@ -16,4 +16,4 @@ function solution2(...stick:number[]){
     return shortherTotal >= longest
 }
 
-console.log(solution(13, 33, 17));
+console.log(solution2(13, 33, 17));
