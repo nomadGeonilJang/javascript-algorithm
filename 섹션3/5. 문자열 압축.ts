@@ -15,4 +15,4 @@ function solution(s:string){
 }
 
 
-console.log(solution("KKHSSSSSSSE"));
+console.log(solution("KKHSSSSSSSE "));
