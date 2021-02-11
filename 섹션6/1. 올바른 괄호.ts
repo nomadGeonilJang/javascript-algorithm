@@ -7,10 +7,9 @@ function solution(s: string):boolean{
             stack.pop()
         }
     }
-    
+    console.log(stack)
     return stack.length === 0
-    
 }
 
-let a="(()(()))(()";
+let a="(((())(()";
 console.log(solution(a));
